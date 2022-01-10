@@ -7,7 +7,6 @@ export const Button = styled.button`
   color: white;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
   padding: 14px 40px;
-  margin-top: 2rem;
   font-size: 16px;
   cursor: pointer;
 
@@ -50,4 +49,8 @@ export const Joke = styled.p`
   line-height: 40px;
   margin: 50px auto;
   max-width: 600px;
+`;
+
+export const Content = styled.div`
+  margin: 2rem;
 `;
